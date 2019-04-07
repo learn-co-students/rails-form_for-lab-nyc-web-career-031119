@@ -1,0 +1,17 @@
+<h1>Edit Student</h1>
+
+<%= form_for(@student) do |f| %>
+<%= f.label 'Student First Name' %>
+<%= f.text_field :first_name %>
+
+<%= f.label 'Student Last Name' %>
+<%= f.text_field :last_name %>
+
+<%= f.submit%>
+<% end %>
+<br>
+<br>
+<br>
+<br>
+<br>
+<button type="button"><%= link_to "Back", student_path(@student) %></button>

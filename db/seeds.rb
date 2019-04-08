@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+nex = Student.find_or_create_by(first_name: 'Neh', last_name: 'Ext')
+ps1 = SchoolClass.find_or_create_by(title: 'no', room_number: 543)
